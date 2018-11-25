@@ -1,6 +1,6 @@
 // Bootstrap overrides for this template
 .text-primary {
-  color: $primary !important;
+  color: $black !important;
 }
 
 .btn {
@@ -16,8 +16,8 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $black;
+  border-color: $black;
   &:hover,
   &:focus,
   &:active {
@@ -26,6 +26,6 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(241, 6, 6, 0.5) !important;
   }
 }
