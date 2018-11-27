@@ -43,7 +43,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger " href="#page-top">iVote</a>
+        <a class="navbar-brand js-scroll-trigger " href="#page-top" id="iVote"
+          >iVote</a
+        >
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
@@ -66,6 +68,11 @@
               >
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#testimonials"
+                >testimonials</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">team</a>
             </li>
             <li class="nav-item">
@@ -75,6 +82,8 @@
         </div>
       </div>
     </nav>
+
+    <!-- Navigation -->
 
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
@@ -98,6 +107,7 @@
       </div>
     </header>
 
+    <!-- TechStack -->
     <section class="bg-danger" id="tech">
       <div class="container">
         <div class="row">
@@ -111,43 +121,62 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fab fa-4x fa-react text-white mb-3 sr-icon-1"></i>
               <h3 class="mb-3">react</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fab fa-4x fa-node text-white mb-3 sr-icon-2"></i>
               <h3 class="mb-3">node.js</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-heart text-white mb-3 sr-icon-3"></i>
               <h3 class="mb-3">made with love</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img class="img-png" src="img/tech/1.png" alt="" />
-              <!--
-                <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              -->
-              <h3 class="mb-3">solidity+ethereum</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img class="img-pngLarge" src="img/tech/2.png" alt="" />
-              <h3 class="mb-3">metamask+ganache+truffle</h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <img class="img-png" src="img/tech/3.png" alt="" />
+              <img class="img-png" src="img/tech/55.png" alt="" />
               <h3 class="mb-3">web3</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img class="img-png" src="img/tech/11.png" alt="" />
+              <h3 class="mb-3">solidity</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img
+                class="img-pngLarge"
+                src="img/tech/22.png"
+                alt=""
+                id="icon_tech"
+              />
+              <h3 class="mb-3">ethereum</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img class="img-png" src="img/tech/33.png" alt="" />
+              <h3 class="mb-3">metamask</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img
+                class="img-pngLarge"
+                src="img/tech/44.png"
+                alt=""
+                id="icon_tech1"
+              />
+              <h3 class="mb-3">truffle</h3>
             </div>
           </div>
           <div class="container">
@@ -166,32 +195,33 @@
       </div>
     </section>
 
+    <!-- ScreenCast -->
     <section class="bg-primary" id="screencast">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center text-white">
-            <h1 class="section-heading">screenCast</h1>
+            <h1 class="section-heading"><strong>screenCast</strong></h1>
             <hr class="my-4" />
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 text-center text-white">
-          <h4>User-Story 1</h4>
+          <h4>Admin-Story</h4>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/-cXMIYf16W0"
+              src="https://www.youtube.com/embed/PxEWE9mfYIQ"
               allowfullscreen
             ></iframe>
           </div>
         </div>
         <div class="col-sm-6 text-center text-white">
-          <h4>User-Story 2</h4>
+          <h4>Voter-Story</h4>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/-cXMIYf16W0"
+              src="https://www.youtube.com/embed/Sf7hkcJ9514"
               allowfullscreen
             ></iframe>
           </div>
@@ -199,6 +229,58 @@
       </div>
     </section>
 
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-dark" id="testimonials">
+      <div class="container">
+        <div class="col-sm-12 text-center text-white">
+          <h1 class="section-heading"><strong>testimonials</strong></h1>
+          <hr class="my-4" />
+        </div>
+        <div class="row text-white">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-thumbnail rounded-circle mb-3"
+                src="img/testimonials/1.png"
+                alt=""
+              />
+              <h5>Alexander Hamilton</h5>
+              <p class="font-weight-light mb-0">
+                "This is exactly what I had envisioned!!"
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="img/testimonials/2.png"
+                alt=""
+              />
+              <h5>Walter Cronkite</h5>
+              <p class="font-weight-light mb-0">
+                "I'm in love with this dApp, but I'm not biased. Seriously."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="img/testimonials/3.png"
+                alt=""
+              />
+              <h5>Nelson Mandela</h5>
+              <p class="font-weight-light mb-0">
+                "The Effect is real, I'm still alive and love using this dApp!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
@@ -286,6 +368,7 @@
       </div>
     </section>
 
+    <!-- Learn More -->
     <section class="bg-danger text-white" id="git">
       <div class="container text-center">
         <h2 class="mb-4"><strong>Learn more!</strong></h2>
