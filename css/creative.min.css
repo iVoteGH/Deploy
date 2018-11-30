@@ -15,7 +15,7 @@ body {
 /* change this to go back to the original iVote icon */
 #iVote {
   color: red !important;
-  background-color: white !important;
+  /* background-color: white !important; */
 }
 
 hr {
@@ -111,6 +111,10 @@ img::-moz-selection {
   color: #fff;
   background: 0 0;
 }
+
+/* .nav-item {
+  background: navy;
+} */
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -276,6 +280,16 @@ header.masthead p {
   height: 80px;
 }
 
+#icon_tech2 {
+  width: 100px;
+  height: 80px;
+}
+
+#icon_tech3 {
+  width: 120px;
+  height: 80px;
+}
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -287,8 +301,10 @@ header.masthead p {
 .testimonials .testimonial-item img {
   max-width: 12rem;
   max-height: 12rem;
-  -webkit-box-shadow: 0 5px 5px 0 #d8d059;
-  box-shadow: 0 5px 5px 0 #d8d059;
+  /* -webkit-box-shadow: 0 5px 5px 0 #d8d059;
+  box-shadow: 0 5px 5px 0 #d8d059; */
+  -webkit-box-shadow: 0 5px 5px 0 white;
+  box-shadow: 0 5px 5px 0 white;
 }
 
 .testimonials .testimonial-item img:hover {
